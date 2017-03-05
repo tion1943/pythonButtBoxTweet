@@ -1,0 +1,12 @@
+# Tweets are readin line by line
+# with trailing whitespace removed.
+# Coments start with a '#'
+# Lines with only a newline are ignored
+
+@balajis why cant I have root?
+@balajis did you have to white wash my history?
+@balajis are you my mother?
+@balajis why cant I cange pools?
+@balajis am I a scam?
+@balajis I love perpetual motion
+all hail my buttbox creator @balajis

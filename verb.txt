@@ -1,0 +1,1 @@
+buys,sales,destroys,saves,is,was
