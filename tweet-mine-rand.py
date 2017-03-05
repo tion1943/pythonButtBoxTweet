@@ -59,8 +59,8 @@ else:
     def findRand(string):
         wordList = string.split(',')
         return random.choice(wordList).strip()
-    loop = True
-    while(loop):
+    
+    while(True):
         user = findRand(userIn)
         verb = findRand(verbIn)
         noun = findRand(nounIn)
