@@ -9,11 +9,16 @@ for line in inputs:
     if (line != '\n') and not(line.startswith('#')):
         tweets.append(line.strip())
 
-# Sanity check tweet length
+# Select tweet values
+tweetStr = str()
 while(True):
-    tweetStr = random.choice(tweets)
-    if (len(tweetStr) <= 140):
-        break
+    frontTweet = random.choice(tweets)
+    f = open('user.txt').read()
+    names = f.strip().split(',')
+    name = random.choice(names)
+    backTweet = name + ' what do you think about this?'
+    tweetStr = frontTweet + '\n' + backTweet
+    if len(tweetStr) <= 140: break
 
 # Tweet the found string
 apiKey = 'xxxxxxxxxxx'
