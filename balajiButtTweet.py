@@ -17,7 +17,7 @@ while(True):
     names = f.strip().split(',')
     name = random.choice(names)
     backTweet = name + ' what do you think about this?'
-    tweetStr = frontTweet + '\n' + backTweet
+    tweetStr ='. ' + frontTweet + '\n' + backTweet
     if len(tweetStr) <= 140: break
 
 # Tweet the found string
@@ -30,3 +30,4 @@ api.update_status(status=tweetStr)
 
 # Comment this out when not testing
 print ("Tweeted: ", tweetStr)
+
