@@ -1,1 +1,1 @@
-buys,sales,destroys,saves,is,was
+buys,sells,destroys,saves,is,was,owns,blows,fights,wants,seeks,loves,hates,exits,runs,scams,dominates,sues,buys
