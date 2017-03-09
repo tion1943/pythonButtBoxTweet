@@ -71,7 +71,7 @@ else:
         else:break
     tweet = True
     satoshis_mined = int(satoshis) - int(last_record)
-    tweetStr = '. ' + tweetIntro + '\n' + str(satoshis_mined) + " Satoshis!\nTo date, I've mined " + str(satoshis) + " Satoshis!\nMy current hashrate is " + str(hashrate) + " GH/s!"
+    tweetStr = '.' + tweetIntro + '\n' + str(satoshis_mined) + " Satoshis!\nTo date, I've mined " + str(satoshis) + " Satoshis!\nMy current hashrate is " + str(hashrate) + " GH/s!"
 
 # update the last_mine value in the file
 
